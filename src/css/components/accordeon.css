@@ -1,3 +1,26 @@
 /**
-* Accordeon
-*/
+* Accordeon*/
+
+img {
+    width: 135px;
+    height: auto; 
+}
+
+.accordeon {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex: 1;
+    transition: flex 0.3s ease;
+    border: 10px solid white;
+    border-radius: 18px;
+}
+
+details {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: auto;
+    padding: 40px;
+    max-width: 350px; 
+}
