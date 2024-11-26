@@ -1,9 +1,10 @@
 /**
 * Accordeon*/
 
+
 img {
     width: 135px;
-    height: auto; 
+    height: auto;
 }
 
 .accordeon {
@@ -22,5 +23,10 @@ details {
     align-items: flex-start;
     width: auto;
     padding: 40px;
-    max-width: 350px; 
+    max-width: 350px;
+    }
+
+data[open] {
+   visibility: hidden;
 }
+ 
